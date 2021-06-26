@@ -1,4 +1,4 @@
-const connection = new WebSocket('wss://https://techpro709.github.io');
+const connection = new WebSocket('wss://https://techpro709.github.io/chat.github.io/');
 
 connection.onopen = () => {
   console.log('connected');
